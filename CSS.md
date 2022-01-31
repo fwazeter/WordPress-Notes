@@ -23,6 +23,10 @@ Would read as "All elements in the flow of the document that proceed other eleme
 
 [General Cheatsheet Link](https://www.w3schools.com/cssref/css_selectors.asp)
 
+##WordPress Generated CSS
+
+[This File](https://github.com/WordPress/WordPress/blob/99bac7e17cfb5d534b33ffc3a70bff9d9b86875d/wp-includes/class-wp-theme-json.php) contains ```WP_Theme_JSON``` which autogenerates Custom Props and default body styles.
+
 ##Body Tag
 
 ```html
@@ -41,6 +45,7 @@ When a user creates a template, it saves as a CPT and renders the following CSS 
 
 
 ##Block Template wrapper
+[WordPress Generates wp-site-blocks as a wrapper](https://github.com/WordPress/WordPress/blob/99bac7e17cfb5d534b33ffc3a70bff9d9b86875d/wp-includes/block-template.php)
 ```html
 <div class="wp-site-blocks">
     <!-- template files appear here, 

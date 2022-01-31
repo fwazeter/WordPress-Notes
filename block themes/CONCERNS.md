@@ -3,6 +3,8 @@
 Themes shouldn't handle logic - they should be reasonable defaults primarily set through theme.json api (as everything is intended to ultimately be editable here for styling).
 Logic should be the domain of plugins. 
 
+[WordPress File That Renders Block Templates](https://github.com/WordPress/WordPress/blob/99bac7e17cfb5d534b33ffc3a70bff9d9b86875d/wp-includes/block-template.php)
+
 ##Theme Roles
 
  - Color 
